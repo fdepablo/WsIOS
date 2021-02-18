@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:03_NavegacionConTablas/03_NavegacionConTablas.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:02_ModeloDeDatos/02_ModeloDeDatos.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:01_AppBasicaSwiftUI/01_AppBasicaSwiftUI.xcodeproj">
    </FileRef>
    <FileRef

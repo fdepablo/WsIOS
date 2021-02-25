@@ -9,6 +9,12 @@ import UIKit
 
 class PersonaTableViewCell: UITableViewCell {
 
+    //MARK: Properties
+    
+    @IBOutlet weak var nombreLabel: UILabel!
+    @IBOutlet weak var edadLabel: UILabel!
+    @IBOutlet weak var pesoLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

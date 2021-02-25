@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB779E2325E5A5F000E4B1B0 /* PersonaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB779E2225E5A5F000E4B1B0 /* PersonaTableViewCell.swift */; };
 		FB960E3625DE7E8800BA71D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB960E3525DE7E8800BA71D1 /* AppDelegate.swift */; };
 		FB960E3825DE7E8800BA71D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB960E3725DE7E8800BA71D1 /* SceneDelegate.swift */; };
-		FB960E3A25DE7E8800BA71D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB960E3925DE7E8800BA71D1 /* ViewController.swift */; };
+		FB960E3A25DE7E8800BA71D1 /* PersonaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB960E3925DE7E8800BA71D1 /* PersonaViewController.swift */; };
 		FB960E3D25DE7E8800BA71D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB960E3B25DE7E8800BA71D1 /* Main.storyboard */; };
 		FB960E3F25DE7E8800BA71D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB960E3E25DE7E8800BA71D1 /* Assets.xcassets */; };
 		FB960E4225DE7E8800BA71D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB960E4025DE7E8800BA71D1 /* LaunchScreen.storyboard */; };
 		FB960E4D25DE7E8900BA71D1 /* _3_NavegacionConTablasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB960E4C25DE7E8900BA71D1 /* _3_NavegacionConTablasTests.swift */; };
 		FB960E5825DE7E8900BA71D1 /* _3_NavegacionConTablasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB960E5725DE7E8900BA71D1 /* _3_NavegacionConTablasUITests.swift */; };
 		FB960E6A25DE7EE400BA71D1 /* Persona.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB960E6925DE7EE400BA71D1 /* Persona.swift */; };
-		FB960E6F25DE8B8D00BA71D1 /* PersonaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB960E6E25DE8B8D00BA71D1 /* PersonaTableViewController.swift */; };
+		FBF623DA25E7AF21001342E7 /* PersonaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF623D925E7AF21001342E7 /* PersonaTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB779E2225E5A5F000E4B1B0 /* PersonaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaTableViewCell.swift; sourceTree = "<group>"; };
 		FB960E3225DE7E8800BA71D1 /* 03_NavegacionConTablas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 03_NavegacionConTablas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB960E3525DE7E8800BA71D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB960E3725DE7E8800BA71D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB960E3925DE7E8800BA71D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB960E3925DE7E8800BA71D1 /* PersonaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaViewController.swift; sourceTree = "<group>"; };
 		FB960E3C25DE7E8800BA71D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB960E3E25DE7E8800BA71D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB960E4125DE7E8800BA71D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,7 +55,7 @@
 		FB960E5925DE7E8900BA71D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB960E6825DE7EBB00BA71D1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FB960E6925DE7EE400BA71D1 /* Persona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persona.swift; sourceTree = "<group>"; };
-		FB960E6E25DE8B8D00BA71D1 /* PersonaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaTableViewController.swift; sourceTree = "<group>"; };
+		FBF623D925E7AF21001342E7 /* PersonaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,14 +108,15 @@
 			children = (
 				FB960E3525DE7E8800BA71D1 /* AppDelegate.swift */,
 				FB960E3725DE7E8800BA71D1 /* SceneDelegate.swift */,
-				FB960E3925DE7E8800BA71D1 /* ViewController.swift */,
+				FB960E3925DE7E8800BA71D1 /* PersonaViewController.swift */,
 				FB960E3B25DE7E8800BA71D1 /* Main.storyboard */,
+				FB960E6925DE7EE400BA71D1 /* Persona.swift */,
+				FB779E2225E5A5F000E4B1B0 /* PersonaTableViewCell.swift */,
+				FBF623D925E7AF21001342E7 /* PersonaTableViewController.swift */,
 				FB960E3E25DE7E8800BA71D1 /* Assets.xcassets */,
 				FB960E4025DE7E8800BA71D1 /* LaunchScreen.storyboard */,
 				FB960E4325DE7E8800BA71D1 /* Info.plist */,
 				FB960E6825DE7EBB00BA71D1 /* README.md */,
-				FB960E6925DE7EE400BA71D1 /* Persona.swift */,
-				FB960E6E25DE8B8D00BA71D1 /* PersonaTableViewController.swift */,
 			);
 			path = 03_NavegacionConTablas;
 			sourceTree = "<group>";
@@ -267,10 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB960E6A25DE7EE400BA71D1 /* Persona.swift in Sources */,
-				FB960E3A25DE7E8800BA71D1 /* ViewController.swift in Sources */,
+				FB960E3A25DE7E8800BA71D1 /* PersonaViewController.swift in Sources */,
 				FB960E3625DE7E8800BA71D1 /* AppDelegate.swift in Sources */,
-				FB960E6F25DE8B8D00BA71D1 /* PersonaTableViewController.swift in Sources */,
+				FB779E2325E5A5F000E4B1B0 /* PersonaTableViewCell.swift in Sources */,
 				FB960E3825DE7E8800BA71D1 /* SceneDelegate.swift in Sources */,
+				FBF623DA25E7AF21001342E7 /* PersonaTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

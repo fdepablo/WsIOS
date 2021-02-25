@@ -73,4 +73,7 @@ el texto del label.
 5. Dentro del metodo que se acaba de crear ponemos el siguiente código:
         nameLabel.text = "boton pulsado"
         
+## Nota Importante
+Si en algún momento queremos borrar una de las conexiones que hemos creado de un componente de la vista a un controlador debemos de tener cierto cuidado. Por ejemplo, cuando hemos arrastrado un textView al ViewController para conectar la vista con el controlador mediante un atributo anotado con @IBOutlet y luego nos arrepentimos del haberlo hecho. En este caso, NO Seria suficiente con borrar dicho atributo del ViewController, ya que por defecto se queda una referencia desde la vista a dicho atributo, y al arrancar la aplicacion nos daría un error. Por ello, siempre que borremos eñ atributo asociado a un componente del maini.storyboard, tambien deberemos de seleccionar el componente en el main.storyboard (Vista) y pulsar el ultimo enlace de arriba a la derecha llamado "Show the connections inspector" y borrar a mano la conexión que se habia creado de manera automatica dentro del apartado "Referencing Outlets"
 
+Lo mismo podría ocurrir en el caso de que borremos un boton o algún otro componente.

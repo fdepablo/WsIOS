@@ -8,9 +8,6 @@
       location = "group:02_ModeloDeDatos/02_ModeloDeDatos.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:01_AppBasicaSwiftUI/01_AppBasicaSwiftUI.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:01_AppBasicaStoryBoard/01_AppBasicaStoryBoard.xcodeproj">
    </FileRef>
 </Workspace>

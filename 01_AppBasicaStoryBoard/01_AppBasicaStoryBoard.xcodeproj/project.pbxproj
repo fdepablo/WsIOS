@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FB8793CD25A8AE8600BC2AC4 /* leeme.md in Resources */ = {isa = PBXBuildFile; fileRef = FB8793CC25A8AE8600BC2AC4 /* leeme.md */; };
-		FB8793D225A8B20300BC2AC4 /* pasos.md in Resources */ = {isa = PBXBuildFile; fileRef = FB8793D125A8B20300BC2AC4 /* pasos.md */; };
+		FB55E18B273AF31E00AC9A80 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FB55E18A273AF31D00AC9A80 /* README.md */; };
 		FB889E3625A24CE100B5736A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB889E3525A24CE100B5736A /* AppDelegate.swift */; };
 		FB889E3825A24CE100B5736A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB889E3725A24CE100B5736A /* SceneDelegate.swift */; };
 		FB889E3A25A24CE100B5736A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB889E3925A24CE100B5736A /* ViewController.swift */; };
@@ -37,8 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FB8793CC25A8AE8600BC2AC4 /* leeme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = leeme.md; sourceTree = "<group>"; };
-		FB8793D125A8B20300BC2AC4 /* pasos.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = pasos.md; sourceTree = "<group>"; };
+		FB55E18A273AF31D00AC9A80 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FB889E3225A24CE100B5736A /* 01_AppBasicaStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 01_AppBasicaStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB889E3525A24CE100B5736A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB889E3725A24CE100B5736A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,8 +101,7 @@
 		FB889E3425A24CE100B5736A /* 01_AppBasicaStoryBoard */ = {
 			isa = PBXGroup;
 			children = (
-				FB8793CC25A8AE8600BC2AC4 /* leeme.md */,
-				FB8793D125A8B20300BC2AC4 /* pasos.md */,
+				FB55E18A273AF31D00AC9A80 /* README.md */,
 				FB889E3525A24CE100B5736A /* AppDelegate.swift */,
 				FB889E3725A24CE100B5736A /* SceneDelegate.swift */,
 				FB889E3925A24CE100B5736A /* ViewController.swift */,
@@ -239,9 +236,8 @@
 			files = (
 				FB889E4225A24CE200B5736A /* LaunchScreen.storyboard in Resources */,
 				FB889E3F25A24CE200B5736A /* Assets.xcassets in Resources */,
+				FB55E18B273AF31E00AC9A80 /* README.md in Resources */,
 				FB889E3D25A24CE100B5736A /* Main.storyboard in Resources */,
-				FB8793CD25A8AE8600BC2AC4 /* leeme.md in Resources */,
-				FB8793D225A8B20300BC2AC4 /* pasos.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

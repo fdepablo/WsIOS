@@ -15,11 +15,6 @@ import UIKit
 //el objeto ViewController
 class ViewController: UIViewController, UITextFieldDelegate {
 
-    /*
-     The IBOutlet attribute tells Xcode that you can connect to the nameTextField property from Interface Builder (which is why the attribute has the IB prefix). The weak keyword indicates that the reference does not prevent the system from deallocating the referenced object. Weak references help prevent reference cycles; however, to keep the object alive and in memory you need to make sure some other part of your app has a strong reference to the object. In this case, it’s the text field’s superview. A superview maintains a strong reference to all of its subviews. As long as the superview remains alive and in memory, all of the subviews remain alive as well. Similarly, the view controller has a strong reference to its content view—keeping the entire view hierarchy alive and in memory.
-
-
-     */
     //MARK: Properties
 
     @IBOutlet weak var nameLabel: UILabel!

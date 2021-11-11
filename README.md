@@ -15,7 +15,7 @@ Ahora podemos hacer doble click siempre que queramos sobre ese Workspace y se ab
 2. File -> New -> proyect 
 3. En la pestaña "iOS" Elegir la opcion "App". Pulsamos "next"
 4. Elegir nombre de la app y demás campos. El más importante es "UserInterface", en el que podremos elegir "SwiftUI" o "Storyboard". Esta sería la manera en la que queremos realizar nuestras pantallas. Nosotros elegiremos la opcion "Storyboard". Pulsamos "next"
-5. Guardaremos nuestro proyecto dentro de la carpeta de nuestro WS y configuraremos las opciones "add to" y "group" a nuestro WS (importante)
+5. Guardaremos nuestro proyecto dentro de la carpeta de nuestro WS y configuraremos las opciones "add to" y "group" en caso de que queramos añadir este proyecto a nuestro WS
 
 
 ## Partes más importantes de un proyecto iOS.
@@ -28,13 +28,13 @@ En la barra superior de nuestra app podemos encontrar una seríe de botones. Jus
 2. Boton de play y stop en la barra arriba a la izquierda
 3. A la derecha del boton de stop podemos seleccionar para que dispositivo queremos lanzar la aplicación, incluso podriamos elegir un dispositivo físico si lo tuvieramos. Tambien podemos seleccionar que proyecto queremos ejecutar en caso de estar en un workspace con varios proyectos
 4. Si pulsamos play se debería de arrancar nuestra aplicacion en un dispositivo virtual o fisico. Stop para pararlo
-5. A la derecha de la barra tenemos el boton "+" que es un boton para agregar distintos componentes de las librerias, componentes graficos, componentes de modificacion, colores, etc
+5. A la derecha de la barra tenemos el boton "+" que es un boton para agregar distintos componentes de las librerias, componentes graficos, componentes de modificacion, colores, etc. Para ello tenemos que estar situado en un storyboard
 6. A la derecha del boton "+" tenemos el boton con doble fecha, que sirve para ver los cambios en caso de que tengamos nuestro proyecto en github
 7. A la derecha del boton de la doble fecha tenemos el boton de inspeccion de codigo, más adelante se habla de él.
 
 Dentro de la columna de la izquierda(justo debajo del boton de cerrar) tenemos lo que se conoce como columna de navegación y tenemos diferentes vistas:
 
-1. la primera y más inportante es la que sale seleccionada, que es la navegación del proyecto. 
+1. La primera y más inportante es la que sale seleccionada, que es la navegación del proyecto. 
 2. La siguiente sería la del repositorio GIT
 3. La siguiente sería donde podemos ver nuestras clases y su herencia
 4. La siguiente sería un potente buscador

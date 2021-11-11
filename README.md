@@ -50,10 +50,10 @@ Dentro del proyecto, podemos encontrar diferentes carpetas, la más importante e
 
 1. AppDelegate.swift -> En este fichero podemos manejar las notificaciones de nuestra app, como pueden ser que la app se esta ejecutando o que esta pasando a segundo plano
 2. SceneDelegate.swift -> Básicamente para indicar cual es la primera pantalla de nuestra app cuando se termine de cargar
-3. Assets.xcassets -> Donde establecemos todas las imagenes de nuestra app.
+3. Assets.xcassets -> Donde establecemos las imagenes de nuestra app.
 4. LaunchScreen.storyboard -> Pantalla que se muestra mientras se carga nuestra app
 5. Info.plist -> Fichero de configuración de nuestra app. Esta ligado con la información mostrada en la raiz de nuestro proyecto. Los test tambien tendrían un Info.plist para su configuración.
-6. ViewController.swift (Solo con StoryBoard) -> Lleva la parte que comunica la vista con el modelo.
+6. ViewController.swift (Solo con StoryBoard) -> Lleva la parte que comunica la vista con el modelo de datos. Las vistas serían los diferentes storyboard
 7. Main.storyboard (Solo con StoryBoard) -> Es donde pondremos nuestros componentes visuales para que el usuario interaccione con ellos (cajas de texto, botones, etc).
 8. ContentView.swift (Solo con SwiftUI) -> Sería la pantalla principal de la app. Unificaría los dos siguientes archivos ViewController.swift y Main.storyboard
 
@@ -61,11 +61,11 @@ Si pulsamos cuaquiera de estos ficheros podemos ver el codigo en él. Además po
 
 Las carpetas 01_AppBasicaStoryBoardTests y 01_AppBasicaStoryBoardUITests estan destinadas para las pruebas unitarias de nuestra app
 
-Depuracion. Para depurar el codigo ejecutamos normalmente nuestra app y si encuentra un punto de ruptura se parará la app. Podremos inspeccionar la app y su log en la barra inferior de nuestro IDE. 
+Depuracion. Para depurar el codigo ejecutamos normalmente nuestra app y si encuentra un punto de ruptura se parará la app. Podremos inspeccionar la app y su log en la barra inferior de nuestro IDE cuando ejecutemos la app
 
 Para poner/quitar un punto de ruptura, simplemente habría que hacer doble click sobre la linea que queramos.
 
-Para empezar a desarrollar nuestra primera app ir a "pasos.md"
+Para empezar a desarrollar nuestra primera app ir a "README.md"
 
 
 ## Tips

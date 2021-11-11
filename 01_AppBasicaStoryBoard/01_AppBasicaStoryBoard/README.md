@@ -2,7 +2,7 @@
 
 Una vez creada la app podemos empezar a poner nuestros componentes en el fichero "Main.storyboard"
 
-The storyboard in your app contains one scene, which represents a screen of content in your app. The arrow that points to the left side of the scene on the canvas is the storyboard entry point, which means that this scene is loaded first when the app starts. This scene contains a single view that’s managed by a view controller. 
+El storyboard de tu app contiene por defecto una escena "scene", la cual representa una pantalla de contenido en tu aplicacion. La flecha que apunta en el lado izquierdo de la pantalla representa la scena que será el punto de entrada. Esto es, sera esa escena la que se ejecute cuando el usuario inicie nuestra app. 
 
 ## Añadir un TextField a la escena
 

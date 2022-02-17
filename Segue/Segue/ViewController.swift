@@ -29,6 +29,16 @@ class ViewController: UIViewController {
             segundoController?.parametroEntradaNombre = textoNombre.text
         }
     }
+	
+	//Este método se ejecuta siempre que vayamos a ejecutar un segue, en caso
+    //de que devolvamos false, no se ejecutara el segue
+    //En este ejemplo, en caso de que el nombre sea manolo, no lo enviaremos
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if textoNombre?.text == "manolo" {
+            return false
+        }
+        return true
+    }
 
 }
 
